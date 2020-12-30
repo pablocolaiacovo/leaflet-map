@@ -120,14 +120,14 @@ export default function Map() {
               <div className="bg-gray-50 px-4 py-3 sm:px-6 flex flex-row justify-between">
                 <button
                   type="button"
-                  className="flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-gray-300 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
+                  className="flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-gray-300 text-base font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:ml-3 sm:w-auto sm:text-sm"
                   onClick={() => setModal(false)}
                 >
                   Cerrar
                 </button>
                 <button
                   type="button"
-                  className="flex justify-center rounded-md border bg-indigo-500 shadow-sm px-4 py-2 text-base font-medium text-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                  className="flex justify-center rounded-md border bg-indigo-500 shadow-sm px-4 py-2 text-base font-medium text-white hover:bg-white hover:text-indigo-500 hover:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
                   onClick={() => {
                     const marker = {
                       text: textRef.current.value,
